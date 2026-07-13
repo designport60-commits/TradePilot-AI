@@ -168,6 +168,7 @@ if uploaded_file is not None:
         "Symbol",
         "Close",
         "EMA20",
+        "EMA44",
         "EMA50",
         "RSI",
         "MACD",
