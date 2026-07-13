@@ -10,6 +10,7 @@ from strategies.support import detect_support_resistance
 from strategies.volume import detect_volume
 from indicators.supertrend import add_supertrend
 from strategies.score import calculate_score
+from strategies.trend import detect_trend
 
 
 
@@ -56,6 +57,21 @@ def analyze(df):
         volume_signals.append(detect_volume(row))
 
     df["Volume Signal"] = volume_signals
+
+        # -----------------------------
+    # Trend Detection
+    # -----------------------------
+    trends = []
+
+    for _, row in df.iterrows():
+        trends.append(detect_trend(row))
+
+    df["Trend"] = trends
+
+
+    # -----------------------------
+    # Score Calculation
+    # -----------------------------
     scores = []
     recommendations = []
     reasons = []
