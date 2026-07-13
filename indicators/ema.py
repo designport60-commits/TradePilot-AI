@@ -8,4 +8,6 @@ def add_ema(df):
 
     df["EMA50"] = df["Close"].ewm(span=50).mean()
 
+    df["EMA200"] = df["Close"].ewm(span=200, adjust=False).mean()
+
     return df
