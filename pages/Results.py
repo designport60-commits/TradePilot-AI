@@ -30,22 +30,35 @@ with tab1:
             [
                 "Symbol",
                 "Close",
-                "Volume",
-                "Volume Signal",
+                "Trend",
+                "Confidence",
+                "Recommendation",
+
+                "Entry",
+                "Stop Loss",
+                "Target 1",
+                "Target 2",
+                "Risk Reward",
+                "Holding",
+                "Swing Probability",
+
                 "EMA20",
                 "EMA44",
                 "EMA50",
                 "EMA200",
+
                 "RSI",
                 "MACD",
                 "ADX",
+                "Volume Signal",
                 "Pattern",
                 "Breakout",
-                "Score",
-                "Recommendation",
                 "Support",
                 "Resistance",
                 "Supertrend",
+
+                "Score",
+                "Reason"
             ]
         ]
     )
@@ -56,22 +69,35 @@ with tab2:
             [
                 "Symbol",
                 "Close",
-                "Volume",
-                "Volume Signal",
+                "Trend",
+                "Confidence",
+                "Recommendation",
+
+                "Entry",
+                "Stop Loss",
+                "Target 1",
+                "Target 2",
+                "Risk Reward",
+                "Holding",
+                "Swing Probability",
+
                 "EMA20",
                 "EMA44",
                 "EMA50",
                 "EMA200",
+
                 "RSI",
                 "MACD",
                 "ADX",
+                "Volume Signal",
                 "Pattern",
                 "Breakout",
-                "Score",
-                "Recommendation",
                 "Support",
                 "Resistance",
                 "Supertrend",
+
+                "Score",
+                "Reason"
             ]
         ]
     )
@@ -83,22 +109,35 @@ with tab3:
             [
                 "Symbol",
                 "Close",
-                "Volume",
-                "Volume Signal",
+                "Trend",
+                "Confidence",
+                "Recommendation",
+
+                "Entry",
+                "Stop Loss",
+                "Target 1",
+                "Target 2",
+                "Risk Reward",
+                "Holding",
+                "Swing Probability",
+
                 "EMA20",
                 "EMA44",
                 "EMA50",
                 "EMA200",
+
                 "RSI",
                 "MACD",
                 "ADX",
+                "Volume Signal",
                 "Pattern",
                 "Breakout",
-                "Score",
-                "Recommendation",
                 "Support",
                 "Resistance",
                 "Supertrend",
+
+                "Score",
+                "Reason"
             ]
         ]
     )

@@ -170,7 +170,6 @@ if uploaded_file is not None:
         "EMA20",
         "EMA44",
         "EMA50",
-        "EMA200",
         "RSI",
         "MACD",
         "ADX",
